@@ -1,0 +1,9 @@
+{% extends "tasks/layout.html" %} {% block body %}
+<h1>Add Task</h1>
+<form action="{% url 'tasks:add' %}" method="post">
+  {% comment %} GET - to get particular page POST - send data to different
+  request method to add route {% endcomment %} {% csrf_token %} {{form }}
+  <input type="submit" />
+</form>
+<a href="{% url 'tasks:index' %}">View Task</a>
+{% endblock %}
