@@ -4,6 +4,7 @@ from django.contrib import admin
 from .models import Flight, Airport, Passenger
 
 
+#You can create your Own Custom Display in local:.../admin
 
 # Register your models here.
 class FlightAdmin(admin.ModelAdmin):
@@ -15,6 +16,6 @@ class PassengerAdmin(admin.ModelAdmin):
 
 
 
-admin.site.register(Airport)
-admin.site.register(Flight, FlightAdmin)
-admin.site.register(Passenger, PassengerAdmin)
+admin.site.register(Airport) # register Class onto Admin site to make it easy to manage
+admin.site.register(Flight, FlightAdmin) #
+admin.site.register(Passenger, PassengerAdmin) #

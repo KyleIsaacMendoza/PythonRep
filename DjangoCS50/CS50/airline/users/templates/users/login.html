@@ -1,5 +1,6 @@
 {% extends "users/layout.html" %} {% block body%} {% if message %}
-<div>{{ message }}</div>
+<div>{{ message }}</div> 
+<!-- This where we use the message stored in views -->
 
 {% endif %}
 <form action="{% url 'login' %}" method="POST">

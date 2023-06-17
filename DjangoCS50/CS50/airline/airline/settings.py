@@ -56,8 +56,8 @@ ROOT_URLCONF = 'airline.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'flights/templates'],
-        'DIRS': [BASE_DIR / 'users/templates'],
+        'DIRS': [BASE_DIR / 'flights/templates'], # if error such TEMPLATE Not found
+        'DIRS': [BASE_DIR / 'users/templates'], # 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
