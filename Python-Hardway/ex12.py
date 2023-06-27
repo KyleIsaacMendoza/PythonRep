@@ -1,7 +1,7 @@
 # Prompting People
 
 # You can also use input like this 
-# y = input("Name? ")
+# y = input("Name? ") 
 
 
 age = input("How old are you? ")
