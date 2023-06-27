@@ -15,7 +15,7 @@ print("Your second variable is:", second)
 print("Your third variable is:", third)
 
 
-# study drills #3 combiine input with argv
+# study drills #3 combiine input with argv 
 
 print("Input another argument: ")
 argv = input()
