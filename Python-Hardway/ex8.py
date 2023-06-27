@@ -2,7 +2,7 @@
 
 formatter = "{} {} {} {}" # four storage for future values
 #format function with 4 format arguments 
-# ex: formatter.format(arg1,arg2,arg3,arg4)
+# ex: formatter.format(arg1,arg2,arg3,arg4) 
 
 
 print(formatter.format(1,2,3,4))
