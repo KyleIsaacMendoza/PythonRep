@@ -2,14 +2,14 @@
 
 # exercise that uses argv and input 
 # prompt
-
-
 from sys import argv
 
 
 script, user_name = argv 
-
-prompt = '-> '
+prompt = '-> ' # this will show on before answer
+# ex:
+# what is your name? 
+# ->_
 
 
 print(f"Hi {user_name}, I'm the {script} script.")
