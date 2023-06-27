@@ -18,7 +18,7 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 # the default data type of any answer in input is STRING
 # to change them you can put datatype before input
-# example
+# example 
 
 # int(input())
 # float(input())
