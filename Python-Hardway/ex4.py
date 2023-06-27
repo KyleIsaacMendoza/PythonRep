@@ -18,6 +18,6 @@ print("We need to put about", average_passengers_per_car, "in each car.")
 
 
 # study drill answer
-# If you use 4 and not 4.0 in space_in_a_car, the result of future calculation is also a INT not a Float 
+# If you use 4 and not 4.0 in space_in_a_car, the result of future calculation is also a INT not a Float /
 # 
 #
