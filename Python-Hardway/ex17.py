@@ -2,7 +2,6 @@
 # Write Python script to copy one file to another.
 
 
-
 from sys import argv
 from os.path import exists 
 # exists will return a boolean weather the file existing or not. 
@@ -20,9 +19,9 @@ indata = in_file.read() # saving the data using file.read()
 
 print(f"The input file is {len(indata)} bytes long.") 
 #checking what is the length of the data. Optional
-
+ 
 print(f"Does the output file exist? {exists(to_file)}") 
-# using the exists that we import to check if new file is existing.
+# using the exists that we import to check if new file is existing. 
 
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
 input()
@@ -40,4 +39,4 @@ in_file.close() # closing both files
 
 
 # to run 
-# python ex17.py file_with_data.txt new_file.txt
+# python ex17.py file_with_data.txt new_file.txt 
