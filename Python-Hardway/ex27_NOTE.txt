@@ -1,0 +1,54 @@
+# Module, Classes, and Objects
+
+# Modules are Like Dictionaries X:Y
+#
+# modules ->
+'''
+import mystuff(file)
+
+mystuff.func()
+mystuff.value
+
+'''
+
+
+# Classes are like Modules
+''' 
+    class myStuff(object):
+        
+        def __init__(self):
+            self.tangerine = "And now a thousand years between"
+        
+        def apple(self):
+            print("I AM CLASSY APPLES!")
+'''
+
+# Classes are better than Modules*
+
+
+# Objects Are like Import
+# When you create a class what you get is called an object
+# Intantiate (or 'create') a class by calling the class like it's function
+
+'''
+    thing = myStuff() -> class
+    thing.apple() -> function inside the class
+    print(thing.tangerine) -> value inside the class
+'''
+
+
+
+# Getting things from Things
+
+# dict style
+# mystuff['key']
+
+# module style
+# import module
+# module.value / module.func()
+
+# class style
+# 
+# var = myClass()
+# var.apples()
+# print(var.values)
